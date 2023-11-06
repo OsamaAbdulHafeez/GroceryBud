@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eef4fa;
+}
+.white{
+    background-color: #fff;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 11vw;
+    left: 25vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #444546;
+}
+.white h1{
+    font-family: sans-serif;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.value input{
+    width: 30vw;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 2px solid #9bcff8;
+}
+.value button{
+    font-size: 16px;
+    padding: 11px 20px;
+    background-color: #9bcff8;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+ul{
+    overflow-y: scroll;
+    margin: 20px 0 10px 0;
+    height: fit-content;
+    position: relative;
+}
+ul li{
+    list-style: none;
+    width: 40vw;
+    margin: auto;
+    background-color: aqua;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #04626e;
+}
+.text{
+    font-family: sans-serif;
+}
+.buttons i:nth-child(1){
+    color: #1b5079;
+    margin-right: 10px;
+}
+.buttons i:nth-child(2){
+    color: #bb2626;
+}
+::-webkit-scrollbar{
+    width: 12px;
+    height: 20px;
+}
+::-webkit-scrollbar-track{
+    background: #9bcff8;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#2beee4,#04626e);
+    border-radius: 10px;
+}
+.removeAll{
+    font-family: sans-serif;
+    /* position: absolute;
+    top: 18.5rem;
+    bottom: 0; */
+    display: flex;
+    align-items: end;
+}
+.removeAll h3{
+    cursor: pointer;
+}
